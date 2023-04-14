@@ -51,4 +51,71 @@
     transform: scale(1.1);
   }
   
+/* registration page */
+body {
+	background-image: url('carousel-1.jpg');
+	background-size: cover;
+	background-position: center;
+}
+  .registration_container {
+	background-color: rgba(255, 255, 255, 0.8);
+	padding: 20px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 50px;
+	max-width: 500px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+	text-align: center;
+	color: #333;
+	font-family: Arial, sans-serif;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
 
+form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+label {
+	display: block;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	color: #333;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+	background-color: #0077cc;
+	color: #fff;
+	font-size: 18px;
+	font-family: Arial, sans-serif;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+	background-color: #005fa3;
+}
